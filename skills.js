@@ -1,5 +1,9 @@
-function calculateSum(skill) {
-  return skill.skills.reduce((sum, subSkill) => {
-    return sum + (subSkill.level || 0);
-  }, 0);
-}
+function calculateNumbers() {
+  const numbers = [];
+    for (let i = 0; i < 100; i++) {
+        if (i % 2 === 0) {
+            numbers.push(i);
+        }
+        }
+    return numbers;
+    }
